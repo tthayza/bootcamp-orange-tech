@@ -40,3 +40,22 @@
 #### É um relacionamento entre classes, em que a subclasse é uma extensão da superclasse. Assim, a subclasse consegue obter atributos e métodos herdados da superclasse, além também, de poder definir os seus próprios. Mas não tem como objetivo o reuso, e sim para criação de subtipos.
 #### __Polimorfismo__ é a utilização de uma ação da superclasse nas subclasses, especializando para cada contexto que a subclasse necessita.
 #### __Sobrescrita__ é a ação que pode ou não se comportar diferente nas subclasses.
+
+#
+
+### __► Associação__
+#### É um relacionamento entre classes/objetos, em que estes podem pedir ajudar para outras classes/objetos para representar de maneira íntegra o conceito qual se destinam.
+
+
+
+### __Tipos__
+
+
+
+#### __Estrutural - Composição__ é a relação fortemente baseada na dependência e existência do todo, que pode inferir na existência das partes. Com parte todo: Tal parte somente pertence a determinado todo. Sendo assim, se o todo deixa de existir, a parte deixa de existir por consequência.
+
+#### __Agregação__ se refere do oposto da composição. Se o todo deixa de existir, a parte não necessariamente deixa de existir. Portanto, uma parte pode existir sem o todo.
+
+#### __Comportamental - Dependência__ por se tratar de comportamento, esse tipo de associação se encontra nos métodos. Ou seja, algum método depende do uso de determinada entidade ou objeto.
+
+#### __Interface__ é como um contrato que deve ser seguido pela classe que a implementa.
