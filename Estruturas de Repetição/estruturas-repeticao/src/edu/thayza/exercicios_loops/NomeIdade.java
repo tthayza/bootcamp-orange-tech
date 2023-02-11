@@ -16,7 +16,7 @@ public class NomeIdade {
 
         while (true) {
             System.out.println("Nome: ");
-            nome = scan.next()
+            nome = scan.next();
             if (nome.equals("0")) break;
             System.out.println("Idade: ");
             idade = scan.nextInt();

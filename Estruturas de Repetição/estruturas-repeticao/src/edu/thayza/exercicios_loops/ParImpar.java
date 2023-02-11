@@ -6,7 +6,8 @@ public class ParImpar {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     int qtdNumeros;
-    int qtdPares , int qtdImpares = 0;
+    int qtdPares = 0;
+    int qtdImpares = 0;
     int numero;
     int contador = 0;
 
