@@ -9,10 +9,10 @@ public class Perguntas {
     Scanner leitor = new Scanner(System.in);
     List<String> resposta = new ArrayList<>();
 
-    System.out.println("Telefonou para a vítima: ");
+    System.out.print("Telefonou para a vítima: ");
     resposta.add(leitor.next());
 
-    System.out.println("Esteve no local do crime: ");
+    System.out.print("Esteve no local do crime: ");
     resposta.add(leitor.next());
 
     System.out.println("Mora perto da vítima: ");
@@ -33,6 +33,6 @@ public class Perguntas {
     else if (qtdSim == 5) System.out.println("Assassina");
     else System.out.println("Inocente");
 
+    leitor.close();
   }
-  
 }
