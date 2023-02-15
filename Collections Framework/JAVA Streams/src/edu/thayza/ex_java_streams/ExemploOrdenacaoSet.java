@@ -1,4 +1,4 @@
-package edu.thayza.exercicios_set;
+package edu.thayza.ex_java_streams;
 
 import java.util.Comparator;
 import java.util.HashSet;
