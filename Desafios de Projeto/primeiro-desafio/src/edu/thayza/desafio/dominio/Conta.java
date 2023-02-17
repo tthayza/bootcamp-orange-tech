@@ -1,5 +1,7 @@
 package edu.thayza.desafio.dominio;
 
+import java.util.ArrayList;
+
 import javax.swing.*;
 
 public abstract class Conta {
@@ -73,5 +75,7 @@ public abstract class Conta {
 
   public void setSaldo(Double saldo) {
     this.saldo = saldo;
+  }
+  public void add(ArrayList<String> informacoesConta) {
   }
 }
