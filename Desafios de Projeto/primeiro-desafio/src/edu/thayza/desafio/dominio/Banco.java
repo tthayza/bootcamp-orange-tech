@@ -96,4 +96,30 @@ public class Banco {
     } else
       JOptionPane.showMessageDialog(null, "Conta não encontrada");
   }
+
+  @Override
+  public int hashCode() {
+    final int prime = 31;
+    int result = 1;
+    result = prime * result + ((contas == null) ? 0 : contas.hashCode());
+    return result;
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj)
+      return true;
+    if (obj == null)
+      return false;
+    if (getClass() != obj.getClass())
+      return false;
+    Banco other = (Banco) obj;
+    if (contas == null) {
+      if (other.contas != null)
+        return false;
+    } else if (!contas.equals(other.contas))
+      return false;
+    return true;
+  }
+  
 }
