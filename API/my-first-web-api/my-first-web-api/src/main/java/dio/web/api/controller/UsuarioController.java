@@ -19,18 +19,22 @@ import dio.web.api.repository.UsuarioRepository;
 public class UsuarioController {
   @Autowired
   private UsuarioRepository repository;
+
   @GetMapping()
   public List<Usuario> getUsers() {
     return repository.findAll();
   }
+
   @GetMapping("/{username}")
   public Usuario getOne(@PathVariable("username") String username) {
     return repository.findByUsername(username);
   }
+
   @DeleteMapping("/{id}")
   public void delete(@PathVariable("id") Integer id) {
     repository.deleteById(id);
   }
+
   @PostMapping()
   public void postUsers(@RequestBody Usuario usuario) {
     repository.save(usuario);
